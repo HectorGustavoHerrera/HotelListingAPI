@@ -1,0 +1,5 @@
+2022-07-01 16:20:26.269 -03:00 [INF] Now listening on: https://localhost:7123
+2022-07-01 16:20:26.316 -03:00 [INF] Now listening on: http://localhost:5123
+2022-07-01 16:20:26.321 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-01 16:20:26.322 -03:00 [INF] Hosting environment: Development
+2022-07-01 16:20:26.323 -03:00 [INF] Content root path: C:\Users\Gustavo\source\repos\HotelListingAPI\HotelListingAPI\
