@@ -9,6 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//agregamos esta primera linea de codigo configurar Cors
 builder.Services.AddCors(options => {
     options.AddPolicy("AllowAll",
         b => b.AllowAnyHeader()
@@ -29,6 +30,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+//agregamos esta segunda linea de codigo de la politica de Cors
 app.UseCors("AllowAll");
 
 app.UseAuthorization();
