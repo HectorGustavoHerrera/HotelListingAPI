@@ -16,6 +16,7 @@ builder.Services.AddCors(options => {
         .AllowAnyOrigin()
         .AllowAnyMethod());
 });
+
 builder.Host.UseSerilog((ctx, lc) => lc.WriteTo.Console().ReadFrom.Configuration(ctx.Configuration));
 
 
